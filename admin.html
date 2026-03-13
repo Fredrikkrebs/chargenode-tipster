@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chargenode Tippning – Admin</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabaseClient.js"></script>
+  <script src="js/supabaseApi.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo">⚙️ Admin</div>
+      <div class="small">Hantera resultat</div>
+    </div>
+  </header>
+  <main>
+    <div class="card">
+      <div class="grid grid-2">
+        <div>
+          <label>Lösenord</label>
+          <input id="pass" type="password" placeholder="ADMIN_PASS" />
+        </div>
+        <div>
+          <label>Omgång</label>
+          <select id="roundSelect"></select>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+        <button id="saveBtn">Spara resultat</button>
+        <button id="exportLocal" class="secondary">Exportera fixtures.json (fallback)</button>
+        <button id="importFixtures" class="secondary">Importera fixtures.json → Supabase</button>
+        <a href="leaderboard.html"><button class="secondary">Visa tabell</button></a>
+      </div>
+      <div class="small">Supabase-läge: ändringar sparas i DB. Demoläge: exportera uppdaterad <code>fixtures.json</code> och ersätt i <code>data/</code>.</div>
+      <div id="status" class="small"></div>
+    </div>
+    <div class="card"><div id="matches"></div></div>
+  </main>
+  <footer>
+    <div style="max-width:1100px;margin:0 auto;padding:0 16px">⬅️ <a href="index.html">Till tippningen</a></div>
+  </footer>
+  <script src="js/helpers.js"></script>
+  <script src="js/config.js"></script>
+  <script>
+  let FIXTURES = [];
+  function requireAuth(){ const p = document.getElementById('pass').value; return p === CONFIG.ADMIN_PASS; }
+  function usingSupabase(){ return !!ensureSupabase(); }
+  function renderRounds(fixtures){ const sel = document.getElementById('roundSelect'); sel.innerHTML = (fixtures||[]).map(r=>`<option value="${r.round}">Omgång ${r.round} (${r.dates||''})</option>`).join(''); }
+  function renderMatches(round){ const cont = document.getElementById('matches'); cont.innerHTML = ''; (round.matches||[]).forEach(m=>{ const row = document.createElement('div'); row.className='match'; const h = (m.result && typeof m.result.home==='number') ? m.result.home : ''; const a = (m.result && typeof m.result.away==='number') ? m.result.away : ''; row.innerHTML = `
+        <div class="team">${m.home}</div>
+        <div class="small">vs</div>
+        <div class="team">${m.away}</div>
+        <input type="number" min="0" step="1" inputmode="numeric" placeholder="H" data-type="home" data-id="${m.id}" value="${h}" />
+        <input type="number" min="0" step="1" inputmode="numeric" placeholder="B" data-type="away" data-id="${m.id}" value="${a}" />
+      `; cont.appendChild(row); }); }
+  async function init(){ try{ if(usingSupabase()) FIXTURES = await sbLoadFixtures(); else FIXTURES = await fetchJSON('data/fixtures.json'); }catch(e){ console.error(e); FIXTURES = await fetchJSON('data/fixtures.json'); } renderRounds(FIXTURES); const sel = document.getElementById('roundSelect'); renderMatches(FIXTURES[0]||{matches:[]}); sel.addEventListener('change', ()=>{ const rr = FIXTURES.find(r=>r.round == sel.value); renderMatches(rr||{matches:[]}); }); document.getElementById('saveBtn').addEventListener('click', onSave); document.getElementById('exportLocal').addEventListener('click', exportLocal); document.getElementById('importFixtures').addEventListener('click', importFixtures); }
+  async function onSave(){ const status = document.getElementById('status'); if(!requireAuth()){ status.innerHTML = '<span class="error">Fel lösenord.</span>'; return; } const sel = document.getElementById('roundSelect'); const rr = FIXTURES.find(r=>r.round == sel.value); if(usingSupabase()){ try{ const r = await sbSaveResultsForRound(); status.textContent = `Sparat i molnet (${r.updated} matcher).`; }catch(e){ console.error(e); status.innerHTML = '<span class="error">Kunde inte spara till molnet.</span>'; } return; } exportLocal(); }
+  function exportLocal(){ const status = document.getElementById('status'); const sel = document.getElementById('roundSelect'); const rr = FIXTURES.find(r=>r.round == sel.value); const inputs = [...document.querySelectorAll('input[data-id]')]; const resById = {}; for(const inp of inputs){ const id = inp.getAttribute('data-id'); const t = inp.getAttribute('data-type'); const v = inp.value === '' ? null : Number(inp.value); if(!resById[id]) resById[id] = {home:null,away:null}; resById[id][t] = v; } rr.matches = rr.matches.map(m=>({ ...m, result: resById[m.id] || m.result })); const blob = new Blob([JSON.stringify(FIXTURES, null, 2)], {type:'application/json'}); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'fixtures.json'; a.click(); setTimeout(()=>URL.revokeObjectURL(url), 2000); status.textContent = 'Exporterade fixtures.json – ersätt filen i data/-mappen på din hosting.'; }
+  async function importFixtures(){ const status = document.getElementById('status'); if(!requireAuth()){ status.innerHTML = '<span class="error">Fel lösenord.</span>'; return; } try{ const fixtures = await fetchJSON('data/fixtures.json'); const r = await sbImportFixturesFromJSON(fixtures); status.textContent = `Importerade ${r.inserted} matcher till Supabase.`; }catch(e){ console.error(e); status.innerHTML = '<span class="error">Kunde inte importera fixtures.</span>'; } }
+  init();
+  </script>
+</body>
+</html>

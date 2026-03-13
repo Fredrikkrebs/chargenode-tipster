@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chargenode Tippning – Tabell</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabaseClient.js"></script>
+  <script src="js/supabaseApi.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo">⚡ Chargenode Tippning</div>
+      <div class="small">Live-tabell</div>
+    </div>
+  </header>
+  <main>
+    <div class="card">
+      <div style="display:flex;gap:8px;align-items:center;justify-content:space-between">
+        <div class="small">Poängregler: Exakt = 3p, Tecken = 1p</div>
+        <div>
+          <label for="roundFilter">Omgång</label>
+          <select id="roundFilter"><option value="all">Alla</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <table class="table" id="tbl">
+        <thead><tr><th>#</th><th>Spelare</th><th>Poäng</th><th>Exakta</th><th>Tipsade matcher</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="card notice">
+      Läser data från Supabase om konfigurerat. Annars localStorage (demo).
+    </div>
+  </main>
+  <footer>
+    <div style="max-width:1100px;margin:0 auto;padding:0 16px">⬅️ <a href="index.html">Tillbaka</a></div>
+  </footer>
+  <script src="js/helpers.js"></script>
+  <script src="js/config.js"></script>
+  <script>
+  let FIXTURES = [];
+  const PICKS_LOCAL_KEY = 'chargenode_picks_v1';
+  function usingSupabase(){ return !!ensureSupabase(); }
+  function getLocalPicks(){ try{ return JSON.parse(localStorage.getItem(PICKS_LOCAL_KEY)||'{}'); }catch(e){return {}}; }
+  function collectPlayers(picks){ return Object.keys(picks); }
+  function flatMatches(fixtures){ const map = new Map(); (fixtures||[]).forEach(r=> (r.matches||[]).forEach(m=>map.set(m.id, {round:r.round, match:m})) ); return map; }
+  function computeLeaderboardLocal(fixtures){ const picks = getLocalPicks(); const players = collectPlayers(picks); const matchMap = flatMatches(fixtures); const rows = []; for(const name of players){ let pts=0, exacts=0, tipped=0; const my = picks[name]||{}; for(const [mid, pred] of Object.entries(my)){ const obj = matchMap.get(mid); if(!obj) continue; const res = obj.match.result; if(pred && typeof pred.home==='number' && typeof pred.away==='number') tipped++; if(res && typeof res.home==='number'){ const p = scorePoints(pred, res); pts += p; if(p===CONFIG.SCORING.EXACT) exacts++; } } rows.push({name, points: pts, exacts, tipped}); } rows.sort(byPointsDesc); return rows; }
+  function renderTable(rows){ const tb = document.querySelector('#tbl tbody'); tb.innerHTML = ''; rows.forEach((r,i)=>{ const tr = document.createElement('tr'); tr.innerHTML = `<td>${i+1}</td><td>${r.name}</td><td><strong>${r.points}</strong></td><td>${r.exacts}</td><td>${r.tipped}</td>`; tb.appendChild(tr); }); }
+  async function init(){ let rows = []; try{ if(usingSupabase()) rows = await sbLoadLeaderboard(); else { FIXTURES = await fetchJSON('data/fixtures.json'); rows = computeLeaderboardLocal(FIXTURES); } }catch(e){ console.error(e); FIXTURES = await fetchJSON('data/fixtures.json'); rows = computeLeaderboardLocal(FIXTURES); } const rf = document.getElementById('roundFilter'); (FIXTURES.length?FIXTURES:[]).forEach(r=>rf.appendChild(new Option('Omgång '+r.round, r.round))); rf.addEventListener('change', ()=> renderTable(rows)); renderTable(rows); }
+  init();
+  </script>
+</body>
+</html>
