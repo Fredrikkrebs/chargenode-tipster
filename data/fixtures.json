@@ -1,0 +1,1616 @@
+[
+  {
+    "round": 1,
+    "dates": "04/04–06/04",
+    "matches": [
+      {
+        "id": "8918400c-cf8f-4392-ac25-14d1a36b5cbb",
+        "home": "AIK",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "0b5f13fa-26b5-4005-9f2b-247568106128",
+        "home": "Hammarby",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "8d600a08-521b-4b7b-8dde-68b04c5bf8b8",
+        "home": "Gais",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "36f77209-28a8-4cde-ab36-708705d871dc",
+        "home": "Örgryte IS",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "613ea964-ff4e-4b2c-85a0-2a31332d1ff9",
+        "home": "BK Häcken",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "38703f19-713a-444d-85ac-d4c084a520b9",
+        "home": "IF Elfsborg",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "dcbf857d-19d5-43dc-8104-c1c4360fcad6",
+        "home": "Degerfors IF",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "037ba960-aa85-4a09-92bf-939044439bd0",
+        "home": "Kalmar FF",
+        "away": "Västerås SK",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "dates": "11/04–13/04",
+    "matches": [
+      {
+        "id": "091def9b-6ea1-4f10-b433-4acc4a76a00e",
+        "home": "Djurgården",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "1e558fe4-9f30-4c8a-8adc-5ea78ad3ebd7",
+        "home": "IFK Göteborg",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "7ecaed70-06c6-4320-a407-9ebf4760216a",
+        "home": "Mjällby AIF",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "5c0fb26f-cefe-4fb9-a804-cf3580df60d2",
+        "home": "Malmö FF",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "fab9e9b3-b611-4c59-909c-fb24d979c815",
+        "home": "BP",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "3fc663f6-dcbf-4834-89e0-39281b545d0b",
+        "home": "IK Sirius",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "b0e4a9a3-a08e-408b-9964-51e6b44c0767",
+        "home": "Västerås SK",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "e78d2f97-06e9-4e93-afb0-a0232bc1ee91",
+        "home": "Halmstads BK",
+        "away": "Degerfors IF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "dates": "18/04–20/04",
+    "matches": [
+      {
+        "id": "a33bf354-9185-4a9a-b687-25dd7d460469",
+        "home": "AIK",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "50e62c7a-cb24-439b-aa34-46d422532490",
+        "home": "Djurgården",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "8e2de34e-f94d-40de-a838-a659d1ff317a",
+        "home": "Hammarby",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "5d2e9ae5-7d73-47e8-bf65-4cf5aa441a0a",
+        "home": "BK Häcken",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "20134616-9da4-41c7-a362-67c76ec09fd8",
+        "home": "Mjällby AIF",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "27b5b56e-e8f2-4744-98a9-075522598f0f",
+        "home": "Degerfors IF",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "b98c43b1-2b3d-4ab7-a9cf-79cd9ba1d894",
+        "home": "IK Sirius",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "4f71a34d-332a-442a-9290-d9ab7aab2f70",
+        "home": "Halmstads BK",
+        "away": "IFK Göteborg",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 4,
+    "dates": "22/04–23/04",
+    "matches": [
+      {
+        "id": "61eb76f3-1eba-4ec7-b0b3-babfda428993",
+        "home": "Hammarby",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "5d4999e5-8bfc-4009-8921-21a2d7e2bf99",
+        "home": "Gais",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "89630699-dead-4d84-a031-f1a34dff45f0",
+        "home": "Örgryte IS",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "b17985db-a92b-40cc-9491-43845397bfd1",
+        "home": "Malmö FF",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "73d9c77f-603b-4c10-8460-bd6114c5640c",
+        "home": "IF Elfsborg",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "cd5522bc-cbe9-4a11-b055-c4c6e5e2c9a9",
+        "home": "Degerfors IF",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "7a9d4462-b98d-4b1e-8a1c-256d6ba9c292",
+        "home": "Västerås SK",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "2601fa55-9783-437d-a915-9c5fc75dc17e",
+        "home": "Kalmar FF",
+        "away": "IFK Göteborg",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 5,
+    "dates": "25/04–27/04",
+    "matches": [
+      {
+        "id": "d5eb6167-fe13-41ca-bc4d-a26d4982be2c",
+        "home": "AIK",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "b40428ed-5fc8-4c2e-bad9-4ff64fb8d836",
+        "home": "Djurgården",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "902e6ba0-5ca2-48fe-bdad-42e014695f9a",
+        "home": "IFK Göteborg",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "cc3e7cc1-09d4-4164-981f-03adca05b1de",
+        "home": "Örgryte IS",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "367ee18c-cd8e-48a4-b040-d01a5565af3c",
+        "home": "BK Häcken",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "29366653-ffca-416f-b054-07bbbb5923d1",
+        "home": "Mjällby AIF",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "6bb8052d-001b-4f9a-b3e5-f81e70b837dd",
+        "home": "BP",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "7cc7ee5f-6abd-4cfe-983e-715bc11fb8dc",
+        "home": "Kalmar FF",
+        "away": "IF Elfsborg",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 6,
+    "dates": "02/05–04/05",
+    "matches": [
+      {
+        "id": "f4dfe27e-462d-479e-9d6f-fd54a59b3269",
+        "home": "Djurgården",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "69e70b47-be2f-4bef-a63c-e2451a9e12d2",
+        "home": "Hammarby",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "1e691f5c-b5b0-45cf-aa27-8931ae7910a4",
+        "home": "Gais",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "7b1daad7-46ec-417a-b9e2-6ff9ce817509",
+        "home": "Malmö FF",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "6260c53d-6f4d-4694-9399-a9779f2d602d",
+        "home": "IF Elfsborg",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "228b1e1d-ad68-457e-bc45-85d00b974c07",
+        "home": "Degerfors IF",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "d6a478af-f71c-4fbf-b121-6554ef0478fa",
+        "home": "IK Sirius",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "2bcbb5d4-df4c-4c2e-a748-d773fb9b32f6",
+        "home": "Halmstads BK",
+        "away": "BP",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 7,
+    "dates": "09/05–11/05",
+    "matches": [
+      {
+        "id": "e0c6214f-1a04-4787-98a6-5236de4c3bcd",
+        "home": "AIK",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "193a27dd-9d7a-4e74-9d19-ad718e95a3f9",
+        "home": "IFK Göteborg",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "6f6e4397-8a79-4ec6-ac51-265e0f95c50b",
+        "home": "BK Häcken",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "b271a494-5f21-43e8-8a69-bf54b2b69103",
+        "home": "IF Elfsborg",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "2404fcce-89d3-4b16-970a-6fcb99050d8c",
+        "home": "Degerfors IF",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "5c95703a-1285-45f7-aa9d-223dbacf3e3b",
+        "home": "IK Sirius",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "cffca27b-c919-41de-8d32-4298b5d7b80d",
+        "home": "Västerås SK",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "5ba5258d-c858-4815-a1cc-949903931a09",
+        "home": "Kalmar FF",
+        "away": "Halmstads BK",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 8,
+    "dates": "16/05–18/05",
+    "matches": [
+      {
+        "id": "6d2f8b24-9bd9-4c9e-ae3c-2c87d9bc6034",
+        "home": "Djurgården",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "b3203cb6-2690-4bbd-93ce-156e4b236ab0",
+        "home": "Hammarby",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "33c010ca-53e6-4d43-a0b4-a855e2886866",
+        "home": "Gais",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "09b9fe20-e0f0-4b13-9736-0f702a20a845",
+        "home": "Örgryte IS",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "b9a0d8d3-2747-491d-b089-c675423d158d",
+        "home": "Mjällby AIF",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "d051143f-3723-4dbe-878d-4ca0a9c14e1d",
+        "home": "BP",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "687a6b37-d4a1-46f6-91b7-bb7a430e9bfc",
+        "home": "Västerås SK",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "a10a13e5-60e1-40bc-b379-10c7c01731ee",
+        "home": "Halmstads BK",
+        "away": "IF Elfsborg",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 9,
+    "dates": "23/05–25/05",
+    "matches": [
+      {
+        "id": "59c9c477-c847-44be-a6d2-bfc86e5ba940",
+        "home": "Djurgården",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "85685dde-eacf-437c-a04c-e0382162050b",
+        "home": "Hammarby",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "97d36f8a-967d-4d26-a9e2-415f0da06bc8",
+        "home": "IFK Göteborg",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "6efc9c9b-17ae-46af-a796-d8e875b41d61",
+        "home": "Malmö FF",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "24621da9-9770-4105-8f07-c51dc29dfc7a",
+        "home": "IF Elfsborg",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "c31fd577-65a8-416e-a4d1-cf0638714b03",
+        "home": "IK Sirius",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "bf6078a9-861b-4717-9796-df5048edaaf0",
+        "home": "Kalmar FF",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "b1e69f10-c2ae-4d60-af5e-f08699674288",
+        "home": "Halmstads BK",
+        "away": "Örgryte IS",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 10,
+    "dates": "31/05",
+    "matches": [
+      {
+        "id": "d86a45a2-3e1c-4264-be73-673b551909e3",
+        "home": "AIK",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "dd1c8bca-d664-4b88-80dc-20c7f2a3ad9e",
+        "home": "Gais",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "e06a2a06-6907-44b3-9e29-085a61f14b8a",
+        "home": "Örgryte IS",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "1d95fd72-62bc-4155-b128-c42fa898a85f",
+        "home": "BK Häcken",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "f9b86b0a-f672-477d-b541-73dab6da3ff0",
+        "home": "Mjällby AIF",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "3c3e57ca-28fb-4bd9-b599-29356c640cc4",
+        "home": "Malmö FF",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "83651b48-4304-41a2-ba1c-a26746b650b5",
+        "home": "Degerfors IF",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "ab097374-23b8-41f8-845b-afbf8d18a8b3",
+        "home": "Västerås SK",
+        "away": "IFK Göteborg",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 11,
+    "dates": "04/07–06/07",
+    "matches": [
+      {
+        "id": "75600aea-7847-43f5-bae9-a161531a1d3c",
+        "home": "IFK Göteborg",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "3d1f950e-d609-4124-81f8-946538b169c1",
+        "home": "BK Häcken",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "3c6b2cf5-b2f9-4ff8-811f-76f1453f3471",
+        "home": "IF Elfsborg",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "6518cf35-9e38-4eaa-9c34-286fede708db",
+        "home": "BP",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "f0aa1806-3d57-4ee2-89f0-212e58013b5f",
+        "home": "Degerfors IF",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "018dc6c5-6aa9-4564-8b89-e5e46b4b15ee",
+        "home": "IK Sirius",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "dd3a7817-1fd2-431e-b8e7-a5ca128971f4",
+        "home": "Kalmar FF",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "4c0d87cb-29fd-4c5e-8318-d3b066be8458",
+        "home": "Halmstads BK",
+        "away": "Västerås SK",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 12,
+    "dates": "11/07–13/07",
+    "matches": [
+      {
+        "id": "48bb57f5-6a66-48b4-ab1c-f6a9084ad91b",
+        "home": "Djurgården",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "a07c23e0-c9ed-40ff-a44c-124e3edcbb2e",
+        "home": "Hammarby",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "54b0201e-9144-4c8f-938f-59704e054a1b",
+        "home": "Gais",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "3cb2de94-be84-43e2-88c2-75a14c958d57",
+        "home": "Örgryte IS",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "0514d916-e00c-48b9-98ed-fa36f6e53e49",
+        "home": "Mjällby AIF",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "475773f8-4f1c-4796-b954-2b0c60f4fb0d",
+        "home": "Malmö FF",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "559253c1-84a2-4db3-974d-4ba9c80f2169",
+        "home": "BP",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "1d2e8522-6da3-424b-a0ff-1967356b30a2",
+        "home": "Västerås SK",
+        "away": "Degerfors IF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 13,
+    "dates": "18/07–20/07",
+    "matches": [
+      {
+        "id": "d0b89dc0-1ce6-4060-81e5-b3e585e5707a",
+        "home": "AIK",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "acfc6208-dc0c-4107-8696-f20b4fc026f4",
+        "home": "Hammarby",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "99baff46-ae5b-41cf-9042-26383e2521db",
+        "home": "IFK Göteborg",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "d30eb412-00b5-4fa8-8ebc-1a38a4753ccc",
+        "home": "Örgryte IS",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "702903b3-0287-4b5b-be40-525f1b628c1e",
+        "home": "Mjällby AIF",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "5a91baf6-a04d-4a00-983f-80701958da7a",
+        "home": "IF Elfsborg",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "664fa609-eb98-47b5-b102-7ddf23362db6",
+        "home": "Kalmar FF",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "3c9f12ca-918c-4d71-9da3-df3d7be6990f",
+        "home": "Halmstads BK",
+        "away": "BK Häcken",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 14,
+    "dates": "25/07–27/07",
+    "matches": [
+      {
+        "id": "e7859231-2a7c-4853-9edb-fcb01993caa8",
+        "home": "Gais",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "d6654af0-b781-4aa2-8ce9-69a66577f12e",
+        "home": "BK Häcken",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "b2e24fe4-af64-4119-a434-fac76ef72b2b",
+        "home": "Malmö FF",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "e8b9c235-a21c-4bd5-ba6a-fe371605761b",
+        "home": "BP",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "f07a80dc-31eb-4a42-ac77-98d90a376a8e",
+        "home": "Degerfors IF",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "221c7c7e-6e72-41d3-b8da-1ea03312fe5d",
+        "home": "IK Sirius",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "7fc3f6ed-1175-470c-9776-3f6cea0fd051",
+        "home": "Västerås SK",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "dc39471e-a819-4ad8-b749-f841491a0eb7",
+        "home": "Kalmar FF",
+        "away": "Mjällby AIF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 15,
+    "dates": "01/08–03/08",
+    "matches": [
+      {
+        "id": "dfe44f58-d89f-4472-b914-975c81a54b14",
+        "home": "AIK",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "a85507ea-11bb-41cf-af0c-adbfc88d990c",
+        "home": "Djurgården",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "12e38ba1-722e-4d7a-b34b-d1c8b4793200",
+        "home": "IFK Göteborg",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "8b97e92d-1827-44f7-a71f-9537e29635b0",
+        "home": "Gais",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "c113791d-c087-424e-a9e8-5be0354a57fe",
+        "home": "BK Häcken",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "a54e631b-2407-4014-b028-5265d5e27c28",
+        "home": "IF Elfsborg",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "b4f71324-cc9b-49fe-a487-05640f1efd2f",
+        "home": "BP",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "fbb5f691-d649-4ca1-8731-b363951d5e2e",
+        "home": "Halmstads BK",
+        "away": "IK Sirius",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 16,
+    "dates": "08/08–10/08",
+    "matches": [
+      {
+        "id": "a5aef060-5a8c-481e-aa86-bc32454ecd78",
+        "home": "Hammarby",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "697c32e7-418f-43e8-9936-4ce0a1e6ba6c",
+        "home": "IFK Göteborg",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "124c3f08-bab8-4ca0-8070-168982dff128",
+        "home": "Örgryte IS",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "3f9f739d-9969-4cee-9990-6efcd5067b80",
+        "home": "Mjällby AIF",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "faa84532-b751-49c0-bf6c-ea8d818fea98",
+        "home": "Malmö FF",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "9613f298-799a-42ef-a2ab-cef15aa6f466",
+        "home": "IK Sirius",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "c206d618-5f59-4d93-911a-1802ee9c8714",
+        "home": "Västerås SK",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "2a39d694-2a42-4341-8f6b-3b1f3363cb1e",
+        "home": "Halmstads BK",
+        "away": "Gais",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 17,
+    "dates": "15/08–17/08",
+    "matches": [
+      {
+        "id": "2b53b9c4-a527-4d80-aa28-a3fdb1327dc9",
+        "home": "Djurgården",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "9e53ff94-3d83-42e5-b45f-c0d76670aa24",
+        "home": "Gais",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "f49972b5-a15b-4ab0-822b-766351c587f7",
+        "home": "BK Häcken",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "424f021e-174a-42b1-be72-afae56ba8c3e",
+        "home": "Mjällby AIF",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "cee76527-8d6c-4e3a-923a-8e7a59c586bc",
+        "home": "IF Elfsborg",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "f5387df8-ac06-4088-82fb-e9307a06dcec",
+        "home": "BP",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "3a2fd003-371d-4f56-b2d1-774e9035710e",
+        "home": "Degerfors IF",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "133b51c4-e630-4045-8d46-744bcbdad486",
+        "home": "Kalmar FF",
+        "away": "Hammarby",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 18,
+    "dates": "22/08–24/08",
+    "matches": [
+      {
+        "id": "f4e39f9e-c709-408d-9f8f-9c2b92aea8a9",
+        "home": "AIK",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "d84dff48-ed89-4906-acd1-e66c22e7a3d0",
+        "home": "Hammarby",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "721ad404-fc7a-4b59-834a-58c3b43701b9",
+        "home": "IFK Göteborg",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "d189195b-7902-413b-94ae-e36b2ff56b51",
+        "home": "Örgryte IS",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "df22d1f1-e575-4b5a-9667-134eff4ff8db",
+        "home": "BP",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "46e58afa-53d5-4943-b089-5f619f11dcc2",
+        "home": "IK Sirius",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "c4230a1f-9ca5-4ccd-a14c-c8905400c5dd",
+        "home": "Västerås SK",
+        "away": "Kalmar FF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 19,
+    "dates": "29/08–31/08",
+    "matches": [
+      {
+        "id": "51f36037-dc62-4ab4-9de5-9d0a3c6bf4a1",
+        "home": "AIK",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "b6a33810-96f8-4a1f-8ee4-ed96c2b7acb8",
+        "home": "Djurgården",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "ca92e2d9-5aea-4105-816c-9122631d3ced",
+        "home": "IFK Göteborg",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "44ca25f5-06e6-4041-9821-446a73c6ed01",
+        "home": "Gais",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "a6c06f8c-2583-43af-b4ed-da12bda57fbc",
+        "home": "BK Häcken",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "9560dbfb-01b6-464a-a2d3-c4dcabe4601d",
+        "home": "IF Elfsborg",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "bff225fb-16db-4b65-903a-25ff0ef87b65",
+        "home": "IK Sirius",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "b75d1fac-f5c8-4e0b-8509-911e53e9e7c9",
+        "home": "Halmstads BK",
+        "away": "Kalmar FF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 20,
+    "dates": "05/09–07/09",
+    "matches": [
+      {
+        "id": "fa8acd55-fb99-4acc-99e9-e6aecf24e333",
+        "home": "Gais",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "847a7b14-ff07-47aa-807f-aeb0e9f6e54b",
+        "home": "Örgryte IS",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "5baac423-0ac1-4f7b-a850-dedcd60e2043",
+        "home": "Mjällby AIF",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "0152c98a-292f-41aa-93ce-64b446a73dee",
+        "home": "Malmö FF",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "c30c4618-084b-4fb4-8f2e-102a439dbb94",
+        "home": "BP",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "1f67f42e-90d9-4eef-a49a-126d4183309d",
+        "home": "Degerfors IF",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "f4c333b5-cbde-4cd7-98f8-0e1cff2de1ac",
+        "home": "Västerås SK",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "27db643f-7921-4a9c-84cb-b742455182b6",
+        "home": "Kalmar FF",
+        "away": "Djurgården",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 21,
+    "dates": "12/09–14/09",
+    "matches": [
+      {
+        "id": "72c375ed-3dc1-4a9b-98c8-7318f3424ee5",
+        "home": "AIK",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "68d0966d-9330-4615-bac1-4ce5d9a52320",
+        "home": "Djurgården",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "ffda0588-ce6d-4aa5-8b64-e0b5ee8fbac6",
+        "home": "Hammarby",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "337a9902-3d98-4399-adec-8a19627c2b9e",
+        "home": "IFK Göteborg",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "ec9c8c16-94b6-4f68-bf6b-a7eaadf8591a",
+        "home": "BK Häcken",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "d9ac5207-5de1-442e-b3b2-7c276540cfdd",
+        "home": "Malmö FF",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "61287124-c15e-4d60-8498-a06f0e457597",
+        "home": "IF Elfsborg",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "dda48140-b42c-41f1-be37-37bafbaec3d7",
+        "home": "IK Sirius",
+        "away": "Degerfors IF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 22,
+    "dates": "19/09–20/09",
+    "matches": [
+      {
+        "id": "892bc545-1d49-4214-8443-f3785832398d",
+        "home": "Djurgården",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "1770046c-825b-4869-917b-57c11e31a527",
+        "home": "Örgryte IS",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "3cee324f-f802-4477-8488-546fe521ed6f",
+        "home": "Mjällby AIF",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "75aa053c-0bc7-4612-a481-579c4a334c92",
+        "home": "BP",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "dde9cfb1-1d93-4112-9f6e-4d763cb20c70",
+        "home": "Degerfors IF",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "baea69f3-cf51-4743-87a4-316ddeeb740c",
+        "home": "Västerås SK",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "8f68b1bb-8174-4892-96d5-6f1ac8d5e4d1",
+        "home": "Kalmar FF",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "8950cf7b-39d7-4918-a96d-720e5efe26b1",
+        "home": "Halmstads BK",
+        "away": "AIK",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 23,
+    "dates": "10/10–12/10",
+    "matches": [
+      {
+        "id": "d1867273-c30c-4bab-a0ce-e42049808c15",
+        "home": "AIK",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "3b4848eb-9f34-4052-a8d1-d9f265c18400",
+        "home": "Hammarby",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "205314ef-0907-4845-98a2-d05f3ebb86c3",
+        "home": "IFK Göteborg",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "5e40409f-c4c8-47be-9900-92ed4a5415bd",
+        "home": "Gais",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "b0e445ad-20bf-4f36-9ed6-4ab39df09e33",
+        "home": "BK Häcken",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "e00d3a76-64ca-4a40-9f9e-697283ca21d2",
+        "home": "Mjällby AIF",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "d288851e-ba4e-4422-adc0-1ff80a11059e",
+        "home": "Malmö FF",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "c2d64cc1-468d-4bd4-ae9c-8b02e45969e5",
+        "home": "IF Elfsborg",
+        "away": "Halmstads BK",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 24,
+    "dates": "17/10–19/10",
+    "matches": [
+      {
+        "id": "6ab9ae73-29ed-424c-8016-c44500b57e87",
+        "home": "AIK",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "85c6bbd6-9501-4a21-a06f-0fe8e388f2e8",
+        "home": "Örgryte IS",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "f328d5d6-98ca-46f7-91c1-7ec2c750161a",
+        "home": "Malmö FF",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "93048807-217b-49db-9644-5d929de2c4ca",
+        "home": "BP",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "3c2f751b-b005-4299-b061-afbb5485019b",
+        "home": "Degerfors IF",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "7c7d1e3a-f5b8-44d0-8f25-56409974e60c",
+        "home": "IK Sirius",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "e3e9a7d8-af65-49b6-99bc-eefdea17f581",
+        "home": "Västerås SK",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "9a42886b-b6f1-4ef9-bf06-d4170208510e",
+        "home": "Halmstads BK",
+        "away": "Hammarby",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 25,
+    "dates": "24/10–26/10",
+    "matches": [
+      {
+        "id": "c84143ec-72ea-44a6-8c83-0aa21a3ebb1a",
+        "home": "Djurgården",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "688e7a43-5731-45d5-834d-ef896542ca19",
+        "home": "Gais",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "8c6a5ee4-cfc3-4e46-8f21-7f76a90c5234",
+        "home": "BK Häcken",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "cd544962-647d-4b40-a04f-31a9760c0dc4",
+        "home": "Mjällby AIF",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "927cae7e-ed15-4839-a506-064a77bb2f8d",
+        "home": "IF Elfsborg",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "9eec69a9-a925-4c22-a7b7-2b9a1b6eba44",
+        "home": "IK Sirius",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "a383e3d2-7071-48aa-9755-3ae537e26767",
+        "home": "Västerås SK",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "a24139d6-cecd-4d0e-ac1d-66ea9976b472",
+        "home": "Kalmar FF",
+        "away": "BP",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 26,
+    "dates": "28/10–29/10",
+    "matches": [
+      {
+        "id": "ece73e67-e564-47dc-aac7-6bcc156049f2",
+        "home": "AIK",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "3ba8d76b-3807-4378-a5a7-f034629cfe08",
+        "home": "Hammarby",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "4731b7d1-9075-47ce-b594-2482d928c931",
+        "home": "IFK Göteborg",
+        "away": "Djurgården",
+        "result": null
+      },
+      {
+        "id": "abfda3c3-0d59-4d39-bf09-16edff9319c7",
+        "home": "Örgryte IS",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "29ae01f3-4d94-4d9d-b2ee-0d5c061a6b8c",
+        "home": "BP",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "8c5c4e19-9e32-4f4f-bbe4-4843af4c8618",
+        "home": "Degerfors IF",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "186ec9f3-88e6-4e70-b197-ca9486fa37ab",
+        "home": "Kalmar FF",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "a0fa09cb-8c34-4f20-8115-01fa93872614",
+        "home": "Halmstads BK",
+        "away": "Malmö FF",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 27,
+    "dates": "31/10–01/11",
+    "matches": [
+      {
+        "id": "6a823c8f-a31f-488f-b67a-6f5a6ddc709d",
+        "home": "Djurgården",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "94895bc0-0eda-4d2b-9a3a-3fad03ad97c9",
+        "home": "Gais",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "a77a05ec-a229-4eb7-8269-f6ad2df4a3fd",
+        "home": "BK Häcken",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "d5c29116-6245-48c1-9926-991c5fe98f3c",
+        "home": "Mjällby AIF",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "887961e6-0938-4c8f-bbaa-030dededc9a9",
+        "home": "Malmö FF",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "336bacfc-3d56-48ec-8064-8ba03f69452b",
+        "home": "IF Elfsborg",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "d1dde3c1-ae11-494e-a0d0-2b0d944b6703",
+        "home": "IK Sirius",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "b13b7eed-e4df-48f9-be98-ef361d5b2d00",
+        "home": "Västerås SK",
+        "away": "BP",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 28,
+    "dates": "07/11–08/11",
+    "matches": [
+      {
+        "id": "befb276d-7e4a-4c69-8f46-32afcb4dafea",
+        "home": "AIK",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "f7e17d71-4de8-4779-af20-0dd8085ce007",
+        "home": "Hammarby",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "f4d137c2-3575-4f9b-83f9-5c7edc389b48",
+        "home": "IFK Göteborg",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "0f95c049-280b-4cff-8767-7313ddf78772",
+        "home": "Örgryte IS",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "aa97d187-c4be-4cec-960c-6c3cbfdbf876",
+        "home": "BP",
+        "away": "Mjällby AIF",
+        "result": null
+      },
+      {
+        "id": "b2551cf9-8464-4ab6-8dd4-0480a1df3632",
+        "home": "Degerfors IF",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "c43faaee-1008-4011-b36c-f08d6ebfde6f",
+        "home": "Kalmar FF",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "b8afe3f6-5785-4102-ad20-975caf9ae41f",
+        "home": "Halmstads BK",
+        "away": "Djurgården",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 29,
+    "dates": "21/11–24/11",
+    "matches": [
+      {
+        "id": "b20880f9-1010-413f-86b9-f17ff7a7ed93",
+        "home": "AIK",
+        "away": "Degerfors IF",
+        "result": null
+      },
+      {
+        "id": "54860678-813b-4c21-b323-54652c9f9088",
+        "home": "Hammarby",
+        "away": "IFK Göteborg",
+        "result": null
+      },
+      {
+        "id": "9d3292e5-2218-4a91-af5b-37d3249154f3",
+        "home": "Gais",
+        "away": "Västerås SK",
+        "result": null
+      },
+      {
+        "id": "0993be3e-2901-4afe-b0e0-26f1bc14b72b",
+        "home": "Örgryte IS",
+        "away": "Kalmar FF",
+        "result": null
+      },
+      {
+        "id": "fc0a8387-48a6-435e-8ae0-c05dfbb37025",
+        "home": "BK Häcken",
+        "away": "IF Elfsborg",
+        "result": null
+      },
+      {
+        "id": "626d57bf-d7a7-4890-a14e-b9e76ba06d19",
+        "home": "Mjällby AIF",
+        "away": "Malmö FF",
+        "result": null
+      },
+      {
+        "id": "86e05abb-4913-48f2-9878-2b6b6ba98df5",
+        "home": "BP",
+        "away": "Halmstads BK",
+        "result": null
+      },
+      {
+        "id": "29f23ac9-1dc2-43ed-a401-a56f3912c040",
+        "home": "IK Sirius",
+        "away": "Djurgården",
+        "result": null
+      }
+    ]
+  },
+  {
+    "round": 30,
+    "dates": "29/11",
+    "matches": [
+      {
+        "id": "1be9b724-f565-4c7e-b0ad-eba1aca1085a",
+        "home": "Djurgården",
+        "away": "BK Häcken",
+        "result": null
+      },
+      {
+        "id": "5c76e6e6-beff-4372-b375-b38dcaef6f80",
+        "home": "IFK Göteborg",
+        "away": "IK Sirius",
+        "result": null
+      },
+      {
+        "id": "a44c38c1-689a-4278-b988-1aa1e812a1a2",
+        "home": "Malmö FF",
+        "away": "BP",
+        "result": null
+      },
+      {
+        "id": "287189db-9b8f-48e8-a183-775303d1b060",
+        "home": "IF Elfsborg",
+        "away": "Gais",
+        "result": null
+      },
+      {
+        "id": "49026de5-73d6-4db5-a037-56e3d06cd1eb",
+        "home": "Degerfors IF",
+        "away": "Örgryte IS",
+        "result": null
+      },
+      {
+        "id": "6335bb79-a21c-4efe-98dd-64661401f1df",
+        "home": "Västerås SK",
+        "away": "Hammarby",
+        "result": null
+      },
+      {
+        "id": "1c0fefaa-5d62-46c0-8981-f8cb5d4968a2",
+        "home": "Kalmar FF",
+        "away": "AIK",
+        "result": null
+      },
+      {
+        "id": "e9978da8-e119-4e60-a7b6-cf5989ca699a",
+        "home": "Halmstads BK",
+        "away": "Mjällby AIF",
+        "result": null
+      }
+    ]
+  }
+]
