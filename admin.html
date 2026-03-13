@@ -56,11 +56,20 @@
         <input type="number" min="0" step="1" inputmode="numeric" placeholder="H" data-type="home" data-id="${m.id}" value="${h}" />
         <input type="number" min="0" step="1" inputmode="numeric" placeholder="B" data-type="away" data-id="${m.id}" value="${a}" />
       `; cont.appendChild(row); }); }
-  async function init(){ try{ if(usingSupabase()) FIXTURES = await sbLoadFixtures(); else FIXTURES = await fetchJSON('data/fixtures.json'); }catch(e){ console.error(e); FIXTURES = await fetchJSON('data/fixtures.json'); } renderRounds(FIXTURES); const sel = document.getElementById('roundSelect'); renderMatches(FIXTURES[0]||{matches:[]}); sel.addEventListener('change', ()=>{ const rr = FIXTURES.find(r=>r.round == sel.value); renderMatches(rr||{matches:[]}); }); document.getElementById('saveBtn').addEventListener('click', onSave); document.getElementById('exportLocal').addEventListener('click', exportLocal); document.getElementById('importFixtures').addEventListener('click', importFixtures); }
-  async function onSave(){ const status = document.getElementById('status'); if(!requireAuth()){ status.innerHTML = '<span class="error">Fel lösenord.</span>'; return; } const sel = document.getElementById('roundSelect'); const rr = FIXTURES.find(r=>r.round == sel.value); if(usingSupabase()){ try{ const r = await sbSaveResultsForRound(); status.textContent = `Sparat i molnet (${r.updated} matcher).`; }catch(e){ console.error(e); status.innerHTML = '<span class="error">Kunde inte spara till molnet.</span>'; } return; } exportLocal(); }
-  function exportLocal(){ const status = document.getElementById('status'); const sel = document.getElementById('roundSelect'); const rr = FIXTURES.find(r=>r.round == sel.value); const inputs = [...document.querySelectorAll('input[data-id]')]; const resById = {}; for(const inp of inputs){ const id = inp.getAttribute('data-id'); const t = inp.getAttribute('data-type'); const v = inp.value === '' ? null : Number(inp.value); if(!resById[id]) resById[id] = {home:null,away:null}; resById[id][t] = v; } rr.matches = rr.matches.map(m=>({ ...m, result: resById[m.id] || m.result })); const blob = new Blob([JSON.stringify(FIXTURES, null, 2)], {type:'application/json'}); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'fixtures.json'; a.click(); setTimeout(()=>URL.revokeObjectURL(url), 2000); status.textContent = 'Exporterade fixtures.json – ersätt filen i data/-mappen på din hosting.'; }
-  async function importFixtures(){ const status = document.getElementById('status'); if(!requireAuth()){ status.innerHTML = '<span class="error">Fel lösenord.</span>'; return; } try{ const fixtures = await fetchJSON('data/fixtures.json'); const r = await sbImportFixturesFromJSON(fixtures); status.textContent = `Importerade ${r.inserted} matcher till Supabase.`; }catch(e){ console.error(e); status.innerHTML = '<span class="error">Kunde inte importera fixtures.</span>'; } }
-  init();
+<script>
+async function notifySlackResults(roundNo) {
+  if (!CONFIG.SLACK_WEBHOOK) return;
+
+  await fetch(CONFIG.SLACK_WEBHOOK, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      text: `⚽ Resultat inlagt för Omgång ${roundNo}\n👉 Se tabellen: https://fredrikkrebs.github.io/chargenode-tipster/leaderboard.html`
+    })
+  });
+}
+</script>
+``
   </script>
 </body>
 </html>
