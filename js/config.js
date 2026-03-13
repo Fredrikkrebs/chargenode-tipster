@@ -5,4 +5,5 @@ const CONFIG = {
   ADMIN_PASS: "tipsadmin",
   SCORING: { EXACT: 3, OUTCOME: 1 },
   FUNCTIONS_URL: "https://jviipglfhcvnyploohnf.functions.supabase.co"
+  SLACK_WEBHOOK: "https://hooks.slack.com/services/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"
 };
